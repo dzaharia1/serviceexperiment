@@ -1,1 +1,1 @@
-# This is an attempt at binding and using a bluemix service to an app
+Quick attempt to bind a service to a bluemix app and make calls to it
