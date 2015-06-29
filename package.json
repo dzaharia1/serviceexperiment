@@ -9,6 +9,7 @@
   "author": "Dan Zaharia",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.13.0"
+    "express": "^4.13.0",
+    "watson-developer-cloud": "^0.9.13"
   }
 }
