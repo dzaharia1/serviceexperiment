@@ -1,4 +1,5 @@
 var express = require('express');
+var piCreds = require('./picreds.js');
 
 var app = express()
 
@@ -6,7 +7,7 @@ var localport = '3333';
 var localhost = 'http://localhost';
 
 app.get('/', function(req, res) {
-	res.send('Hello world!');
+	res.json(piCreds);
 });
 
 app.host = app.set('host', process.env.HOST || localhost);
