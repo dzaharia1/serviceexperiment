@@ -9,7 +9,6 @@
   "author": "Dan Zaharia",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.13.0",
-    "express-handlebars": "^2.0.1"
+    "express": "^4.13.0"
   }
 }
